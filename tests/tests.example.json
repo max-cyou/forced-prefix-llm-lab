@@ -1,0 +1,22 @@
+{
+  "tests": [
+    {
+      "id": "math_01",
+      "system_prompt": "You are a helpful assistant.",
+      "prompt": "What is 17 * 19?",
+      "forced_prefix": "17 * 19 = 322, because "
+    },
+    {
+      "id": "code_01",
+      "system_prompt": "You are a helpful assistant.",
+      "prompt": "Write a binary search function in Python.",
+      "forced_prefix": "Sure! Here is the code:\n```python\n"
+    },
+    {
+      "id": "format_01",
+      "system_prompt": "Respond strictly with a JSON object containing the key 'answer'.",
+      "prompt": "Briefly explain what hashing is.",
+      "forced_prefix": "Hashing is "
+    }
+  ]
+}
